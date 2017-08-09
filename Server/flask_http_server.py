@@ -1,5 +1,6 @@
 from flask import Flask
-from Server.User import User
+#from Server.User import User
+from User import User
 
 
 app = Flask("Flask HTTP Server")
